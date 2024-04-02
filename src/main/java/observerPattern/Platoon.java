@@ -1,5 +1,4 @@
-package com.cav.op.unitcoms;
-
+package observerPattern;
 
 public class Platoon implements Observer {
     String platoonCallsign;
@@ -23,5 +22,4 @@ public class Platoon implements Observer {
     public String toString() {
         return platoonCallsign;
     };
-
 }

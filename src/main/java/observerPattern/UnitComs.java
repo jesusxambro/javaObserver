@@ -1,9 +1,6 @@
-package com.cav.op.unitcoms;
+package observerPattern;
 
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
-
-import org.springframework.scheduling.annotation.Scheduled;
 
 public class UnitComs implements UnitComsInterface {
     private ArrayList<Observer> observers = new ArrayList<>();
@@ -44,5 +41,4 @@ public class UnitComs implements UnitComsInterface {
             System.out.println("Sitrep already received...");
         }
     }
-
 }

@@ -1,14 +1,8 @@
-package com.cav.op;
+package observerPattern;
 
-import org.junit.jupiter.api.Test;
-
-import com.cav.op.unitcoms.Platoon;
-import com.cav.op.unitcoms.Troop;
-import com.cav.op.unitcoms.UnitComs;
-
-public class ObserverTest {
-    @Test
-    void testObserver() throws Exception {
+public class Main {
+	
+    public static void main( String[] args ) {
 
         UnitComs companyUnitComs = new UnitComs("", 0);
         Platoon firstPlatoon = new Platoon("Deathdealer 6");
@@ -30,6 +24,7 @@ public class ObserverTest {
         companyUnitComs.setSitRep(firstPlatoon,"AJAX 4 - WE ARE 70/240 ON CLIII",70);
         System.out.println("Resending the same Sitrep...");
         companyUnitComs.setSitRep(firstPlatoon,"AJAX 4 - WE ARE 70/240 ON CLIII",70);
+    	
     }
 
 }
