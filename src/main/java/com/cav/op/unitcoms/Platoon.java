@@ -6,8 +6,7 @@ public class Platoon implements Observer {
 
     public Platoon(String platoonCallsign) {
         this.platoonCallsign = platoonCallsign;
-    };
-
+    }
 
 
     @Override

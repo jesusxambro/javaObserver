@@ -1,9 +1,7 @@
 package com.cav.op.unitcoms;
 
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
-import org.springframework.scheduling.annotation.Scheduled;
 
 public class UnitComs implements UnitComsInterface {
     private ArrayList<Observer> observers = new ArrayList<>();
