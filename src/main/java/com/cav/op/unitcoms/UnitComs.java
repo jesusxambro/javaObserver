@@ -2,6 +2,9 @@ package com.cav.op.unitcoms;
 
 import java.util.ArrayList;
 
+import com.cav.op.unitcoms.interfaces.Observer;
+import com.cav.op.unitcoms.interfaces.UnitComsInterface;
+
 
 public class UnitComs implements UnitComsInterface {
     private ArrayList<Observer> observers = new ArrayList<>();

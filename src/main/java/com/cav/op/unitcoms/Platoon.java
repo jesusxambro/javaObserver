@@ -1,5 +1,6 @@
 package com.cav.op.unitcoms;
 
+import com.cav.op.unitcoms.interfaces.Observer;
 
 public class Platoon implements Observer {
     String platoonCallsign;
